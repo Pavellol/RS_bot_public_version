@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.1.2" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Games\" />
+    <Folder Include="Literature\Healing\IP\" />
+    <Folder Include="Literature\Service\SP\" />
+    <Folder Include="Literature\Service\BY\" />
+    <Folder Include="Literature\Service\Bulletin\" />
+    <Folder Include="Literature\Service\Others\" />
+    <Folder Include="SheduleGroup\MatchPoint\" />
+    <Folder Include="SheduleGroup\TextForShedule\" />
+    <Folder Include="JSONS\" />
+    <Folder Include="Events\" />
+  </ItemGroup>
+
+</Project>
